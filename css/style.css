@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* style de la page restaurant ce soir  */
+
+body{
+    background: #9fc5b6;
+    margin: 0 auto;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+/* style pour le wrapper */
+#wrapper{
+    background: #fff;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* en-tête  */
+
+h1 {
+    text-transform: capitalize;
+    text-indent: 50px;
+   background-image: url('../img/woddPlank.jpg');
+   padding-top: 40px;
+}
+.nav {
+    background-image: url('../img/woddPlank.jpg');
+    height: 400px;
+}
+
+.nav ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.nav li {
+    float: right;
+    list-style-type: none;
+}
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #fff;
+}
+
+.menu1:hover{
+    border-top: 5px solid #e44d26;
+    background-color: rgba(228, 77, 38, 0.15);
+}
+
+.menu2:hover{
+    border-top: 5px solid #0070bb;
+    background-color: rgba(000, 112, 19, 0.15);
+}
+
+.menu3:hover{
+    border-top: 5px solid #f1dc4f;
+    background-color: rgba(241, 211, 79, 0.15);
+}
+
+.menu4:hover{
+    border-top: 5px solid #bbb;
+    background-color: rgba(220, 220, 220, 0.15);
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}  
+
+/* les sections et les styles */
+section{
+    width: 1000px;
+    height: 500px;
+}
+
+.agauche {
+    float: left;
+    width: 400px;
+    height: 500px;
+}
+
+ .adroite {
+     float: right;
+     width: 600px;
+    height: 500px;
+ }
+
+ .adroite2 {
+    float: right;
+    width: 280px;
+   height: 500px;
+}
+ 
+.div_img {
+    display: inline-block;
+}
+
+ .clear {
+     clear: both;
+ }
+
+/* le footer */
+ footer{
+    margin: 0 auto;
+    width: 1000px;
+    height: 400px;
+    text-align: left;
+    background-image: url('../img/pattern.jpg');
+    
+    
+
+}
+
+footer h2 {
+    padding-top: 50px;
+    margin-bottom: 80px;
+}
+
+i {
+    float: right;
+    width: 100px;
+    min-height: 60px;
+}
+
+
+
